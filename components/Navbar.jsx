@@ -22,6 +22,11 @@ const Navbar = () => {
                     <Link href="/contact">CONTACT</Link>
                 </li>
             </ul>
+            <div className={styles.hanburger}>
+                <div className={styles.line} />
+                <div className={styles.line} />
+                <div className={styles.line} />
+            </div>
         </div>
     )
 }
