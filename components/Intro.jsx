@@ -21,7 +21,7 @@ const Intro = () => {
             </div>
             <div className={styles.card}>
                 <Image 
-                   src="/img/Avocado.png" 
+                   src={"/img/Avocado.png"}
                    width="100%" 
                    height="100%"
                    objectFit="cover"
